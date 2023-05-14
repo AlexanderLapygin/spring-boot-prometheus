@@ -14,6 +14,7 @@
 - prometheus
 - spring-boot
 - starter
+- swagger
 - template
 
 ---
@@ -41,6 +42,10 @@
 ```sh
 mvnw spring-boot:run
 ```
+
+# Check the Swagger
+
+Take a look at http://localhost:8080/swagger-ui.html.
 
 # Check the Actuator
 
