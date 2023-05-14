@@ -4,13 +4,14 @@
     </a>
 </div> 
 
-# HelloWorld on Spring Boot with actuator
+# Spring Boot HelloWorld with monitoring on Prometheus
 
 
 ## Feature tags
 
 - actuator
 - maven
+- prometheus
 - spring-boot
 - starter
 - template
@@ -19,7 +20,7 @@
 
 ## Direct ancestor
 
-[- actuator](https://github.com/AlexanderLapygin/spring-boot-helloworld#readme)
+[- prometheus](https://github.com/AlexanderLapygin/spring-boot-actuator#readme)
 
 ---
 
@@ -41,9 +42,13 @@
 mvnw spring-boot:run
 ```
 
-# Check the actuator
+# Check the Actuator
 
 Take a look at actuator endpoints at http://localhost:8080/actuator.
+
+# Check the Prometheus
+
+Take a look at actuator endpoints at http://localhost:8080/actuator/prometheus.
 
 ### License
 
