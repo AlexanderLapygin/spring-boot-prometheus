@@ -43,15 +43,15 @@
 mvnw spring-boot:run
 ```
 
-# Check the Swagger
+# Check Swagger
 
 Take a look at http://localhost:8080/swagger-ui.html.
 
-# Check the Actuator
+# Check Actuator
 
 Take a look at actuator endpoints at http://localhost:8080/actuator.
 
-# Check the Prometheus
+# Check Prometheus
 
 Take a look at actuator endpoints at http://localhost:8080/actuator/prometheus.
 
