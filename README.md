@@ -4,7 +4,7 @@
     </a>
 </div> 
 
-# Spring Boot HelloWorld with monitoring on Prometheus
+# Spring Boot application starter exporting metrics for Prometheus
 
 
 ## Feature tags
@@ -51,7 +51,7 @@ Take a look at http://localhost:8080/swagger-ui.html.
 
 Take a look at actuator endpoints at http://localhost:8080/actuator.
 
-# Check Prometheus
+# Check how the actuator exports metrics for Prometheus 
 
 Take a look at actuator endpoints at http://localhost:8080/actuator/prometheus.
 
