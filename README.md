@@ -11,7 +11,6 @@
 
 - actuator
 - maven
-- monitoring
 - prometheus
 - spring-boot
 - starter
