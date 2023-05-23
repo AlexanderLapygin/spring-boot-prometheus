@@ -10,6 +10,7 @@
 ## Feature tags
 
 - actuator
+- grafana
 - maven
 - prometheus
 - spring-boot
@@ -85,12 +86,17 @@ To set up Grafana for monitoring your Spring Boot application, follow these step
 1. Download the [latest release](https://grafana.com/grafana/download) of Grafana for your operating system.
 2. Run the installer and follow the instructions on the screen. Select the installation path and other settings as needed.
 3. Start Grafana located in the bin directory from the command line:
-```sh
+```
 grafana-server
 ```
 4. Open a browser and enter http://localhost:3000/ to open the Grafana web interface.
 5. On first launch, you will be prompted to log in. The default administrator username and password is *admin*.
 6. After logging in, you can set up data sources and create dashboards to visualize metrics.
+7. Add a Prometheus data source:
+   Click on the "Configuration" icon (gear) in the left pane and select "Data Sources".
+   Click on the "Add data source" button.
+   Select type "Prometheus".
+   Enter the Prometheus server URL (for example, http://localhost:9090) and click "Save & Test".
 
 ### License
 

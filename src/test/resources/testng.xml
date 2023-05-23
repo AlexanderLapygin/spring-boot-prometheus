@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Main Suite">
+  <test name="Core Test">
+    <classes>
+<!--
+      <class name="com.technology.ibd.service.auth.service.AuthenticationServiceImplTest"/>
+      <class name="com.technology.ibd.service.auth.service.UserServiceImplTest"/>
+      <class name="com.technology.ibd.service.main.service.ReversionStrategyTest"/>
+      <class name="com.technology.ibd.service.rfinfo.adapter.RfInfoWebServiceImplSerializerImplTest"/>
+-->
+    </classes>
+  </test>
+
+  <test name="Business Logic Test" enabled="true">
+    <classes>
+    </classes>
+  </test>
+</suite>

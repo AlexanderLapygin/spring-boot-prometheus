@@ -1,0 +1,21 @@
+{
+  "Number": "Chery-012",
+  "Status": 0,
+  "NameBrand": "Chery",
+  "NameProduct": "Новые машины",
+  "Type": "CC",
+  "StartDate": "2022-09-09",
+  "RealFinishDate": "2022-09-09",
+  "FinishDate": "2023-10-18",
+  "LimitAmount": 55000000,
+  "TotalMainDebt": 53911930,
+  "RestLimit": 1088070,
+  "DateNearLinePay": "2023-06-15",
+  "FlagNearLinePay": 0,
+  "PercentRate": "1.00",
+  "DatePercentRate": "2023-04-21",
+  "ComissType": "1",
+  "SummComissDebt": 0,
+  "LineBlock": 0,
+  "OverdueDebt": 0
+}
