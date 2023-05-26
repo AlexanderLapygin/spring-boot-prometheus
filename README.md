@@ -45,11 +45,11 @@ Take a look at http://localhost:8080/swagger-ui.html.
 
 Take a look at actuator endpoints at http://localhost:8080/actuator.
 
-# Check how the actuator exports metrics for Prometheus locally
+# Check how the actuator exports metrics for Prometheus
 
 Take a look at actuator endpoints at http://localhost:8080/actuator/prometheus.
 
-# Setting up and running Prometheus
+# Setting up and running Prometheus locally
 
 To set up Prometheus for monitoring your Spring Boot application, follow these steps:
 
