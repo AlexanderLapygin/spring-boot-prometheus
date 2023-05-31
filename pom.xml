@@ -10,10 +10,10 @@
 	</parent>
 
 	<groupId>org.softspiders</groupId>
-	<artifactId>softspiders-springboot-jpa-restful-todo-starter</artifactId>
+	<artifactId>springboot-prometheus-starter</artifactId>
 	<version>1.0.0</version>
 	<name>helloworld-service-starter</name>
-	<description>HelloWorld restful service starter on Spring Boot with Swagger support</description>
+	<description>Spring Boot starter to export Prometheus metrics</description>
 	<properties>
 		<java.version>8</java.version>
 	</properties>
